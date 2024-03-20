@@ -3,9 +3,9 @@ tutorial lengkap https://www.youtube.com/watch?v=BzWwuYL3-IU
  
 ## jalankan xface mining di paper space
  
-# mining lewat web mining https://miner.nimiq.com/
+## mining lewat web mining https://miner.nimiq.com/
  
-# https://console.paperspace.com/login
+## https://console.paperspace.com/login
  ```
  sudo apt update
 ```
@@ -46,7 +46,7 @@ sudo apt install novnc
 ```
 websockify -D --web=/usr/share/novnc/ --cert=/etc/ssl/novnc.pem 6080 localhost:5901
 ``` 
-# install chrome 
+## install chrome 
 ```
 sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 ```
@@ -55,7 +55,7 @@ sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.
 sudo apt install ./google-chrome-stable_current_amd64.deb
 ```
  
-# ubah  /usr/bin/google-chrome 
+## ubah  /usr/bin/google-chrome 
 ```
 sudo nano  /usr/bin/google-chrome
 ```
@@ -66,5 +66,11 @@ baris terakhir isi dengan :
 Nanti hasilnya akan seprti ini :
 ## exec -a "$0" "$HERE/chrome" "$@" --no-sandbox
  
-# koneksikan vps dengan cloudflare 
+## koneksikan vps dengan cloudflare melalui zero tier
+Cek ip dari vps nya ketik :
+```
+ifconfig
+```
+
+Selengkapnya lihat https://www.youtube.com/watch?v=BzWwuYL3-IU mulai menit ke 16:25
  
